@@ -1,0 +1,17 @@
+{
+  "name": "02_kafkapartitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "produce": "tsc -b && node dist/producer.js",
+    "consume": "tsc -b && node dist/consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
