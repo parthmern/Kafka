@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "produce": "tsc -b && node dist/producer.js",
+    "produce:user": "tsc -b && node dist/producer-user.js",
     "consume": "tsc -b && node dist/consumer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
